@@ -1,0 +1,79 @@
+.wrapper{
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+#arriba{
+	background-color: red;
+    height: 100px;
+    width: 1000px;
+    margin: 1px; color: white;
+}
+#top{
+	background-color: hsl(56, 88%, 54%);
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+
+#button{
+	background-color: rgb(199, 17, 223);
+    height: 500px;
+    width: 250px;
+    text-align: right;
+    float: left;
+}
+#right{
+	background-color: rgb(3, 3, 156);
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+
+#left{
+	background-color: rgb(16, 180, 30);
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+
+#cajon1{
+    background-color: rgb(16, 86, 184);
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+
+#cajon2{
+    background-color: rgb(46, 48, 51);
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+
+#abajo{
+    background-color: red;
+    height: 50px;
+    width: 1000px;
+    margin: 1px; color: white;
+
+    position: relative;
+    bottom: -801px;
+}
+/*Text position*/
+.top{
+    bottom: 5px;
+    left: 4px;
+}
+.button{
+    bottom: 5px;
+    left: 4px;
+}
+.right{
+    bottom: 5px;
+    left: 4px;
+}
+.left{
+    bottom: 5px;
+    left: 4px;
+}
