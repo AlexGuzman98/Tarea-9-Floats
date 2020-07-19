@@ -3,77 +3,85 @@
 	height: 1000px;
 	margin: 0 auto;
 }
-#arriba{
+
+#clearfix{
+    width: 1000px;
+    height: 500px;
+}
+#clearfix1{
+    width: 1000px;
+    height: 300px;
+}
+
+#caja1{
 	background-color: red;
     height: 100px;
     width: 1000px;
-    margin: 1px; color: white;
-}
-#top{
-	background-color: hsl(56, 88%, 54%);
-    height: 500px;
-    width: 250px;
-    float: left;
-}
-
-#button{
-	background-color: rgb(199, 17, 223);
-    height: 500px;
-    width: 250px;
-    text-align: right;
-    float: left;
-}
-#right{
-	background-color: rgb(3, 3, 156);
-    height: 500px;
-    width: 250px;
-    float: left;
-}
-
-#left{
-	background-color: rgb(16, 180, 30);
-    height: 500px;
-    width: 250px;
-    float: left;
-}
-
-#cajon1{
-    background-color: rgb(16, 86, 184);
-    height: 300px;
-    width: 500px;
-    float: left;
+    
 }
 
 #cajon2{
-    background-color: rgb(46, 48, 51);
+	background-color: hsl(55, 100%, 61%);
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+#cajon3{
+	background-color: rgb(233, 65, 255);
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+#caja4{
+	background-color: rgb(55, 55, 255);
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+#caja5{
+	background-color: rgb(62, 255, 79);
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+
+#box1{
+    background-color: rgb(56, 139, 255);
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+#box2{
+    background-color: rgb(56, 58, 59);
     height: 300px;
     width: 500px;
     float: left;
 }
 
-#abajo{
-    background-color: red;
+#boxdown{
+    background-color: rgb(255, 51, 51);
     height: 50px;
     width: 1000px;
-    margin: 1px; color: white;
-
-    position: relative;
-    bottom: -801px;
+    bottom: -800px;
 }
-/*Text position*/
-.top{
-    bottom: 5px;
-    left: 4px;
+/* Text position */
+.Texto-Top{
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
 }
-.button{
-    bottom: 5px;
-    left: 4px;
+.Texto-Abajo{
+    float: right;   
+    padding-right: 10px;
+    padding-top: 470px;
 }
-.right{
-    bottom: 5px;
-    left: 4px;
+.Texto-Derecha{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
 }
-.left{
-    bottom: 5px;
-    left: 4px;
+.Texto-Izquierda{
+    float: left;
+    padding-top: 470px;
+    padding-left: 10px;
 }
